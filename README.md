@@ -40,3 +40,4 @@ date-em-rate-em-be is the backe-end database for our clienTell app. This read-me
 
 * Contribution links:
   - Due to our complete lack of knowledge of Graphql going into this project almost all coding was done as a group exercise so that all team members could take part in finding and fixing errors and obstacles. Our contribution graphs are not a useful meter of each team member's actual work. Between research, spiking, and code shares this project, and every line of code in it, belongs to all three team members.
+Test Block
