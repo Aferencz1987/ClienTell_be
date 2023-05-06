@@ -5,14 +5,12 @@
 
 # Read more: https://github.com/cyu/rack-cors
 
-# Settings for cors
-# Origins can be specified as a string, a regular expression, or as ‘*’ to allow all origins.
-# A Resource path can be specified as exact string match (/path/to/file.txt) or with a '' wildcard (`/all/files/in/`)
-
-
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins '*'
-    resource '*', headers: :any, methods: [:post]
+    origins "*"
+
+    resource "*",
+      headers: :any,
+      methods: [:get, :post, :put, :patch, :delete, :options, :head]
   end
 end

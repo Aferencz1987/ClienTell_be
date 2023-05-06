@@ -5,7 +5,7 @@ This is the backend portion of the ClienTell application. I am currently in the 
   - Alex Ferencz [Linkedin](https://www.linkedin.com/in/alex-ferencz/)
 
 * App gem versions:
-  - Ruby 2.7.2
+  - Ruby 3.2.1
   - Rails 5.2.6
   - Puma 3.11
   - Graphql 1.12.15
@@ -25,9 +25,9 @@ This is the backend portion of the ClienTell application. I am currently in the 
   - Run bundle exec rspec to run the test suite
 
 * Deployment:
-  - [Back-end deployment](https://date-em-rate-em-be.herokuapp.com/graphql)
+  - [Back-end deployment](https://date-em-rate-em-be.herokuapp.com/graphql) 
   - [Front-end deployment](https://clientell.netlify.app/)
-  - [Front-end repo](https://github.com/date-em-rate-em/date-em-rate-em-fe)
+  - [Front-end repo](https://github.com/Aferencz1987/ClienTell-fe)
 
 * Wiki for GraphQL queries and mutations 
  - [JSON contracts](https://date-em-rate-em.slite.com/) and other useful information.
