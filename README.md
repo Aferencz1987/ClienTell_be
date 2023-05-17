@@ -18,7 +18,7 @@ This is the backend portion of the ClienTell application. I am currently in the 
 * Database creation:
   - rails db:create
   - rails db:migrate
-  - rails db:seeds
+  - rails db:seed
 
 * How to run the test suite:
   - Run `rails graphql:schema:dump` in the terminal to create a schema dump
