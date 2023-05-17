@@ -12,7 +12,7 @@ class GraphqlController < ApplicationController
       # Query context goes here, for example:
       # current_user: current_user,
     }
-    result = DateEmRateEmBeSchema.execute(query, variables: variables, context: context, operation_name: operation_name)
+    result = ClientellBeSchema.execute(query, variables: variables, context: context, operation_name: operation_name)
     render json: result
   rescue ActiveRecord::RecordNotFound => e
     render json: { errors: [{ message: e.message}], data: {} }, status: 404

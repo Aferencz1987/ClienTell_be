@@ -1,5 +1,5 @@
 require 'types/mutation_type'
-class DateEmRateEmBeSchema < GraphQL::Schema
+class ClientellBeSchema < GraphQL::Schema
   mutation(Types::MutationType)
   query(Types::QueryType)
 
