@@ -1,10 +1,6 @@
-## Changes
 
-## Special review requests
+## What was done
 
-## Checklist
-- [ ] Tests written where required
-- [ ] All tests passing
-- [ ] SimpleCov at 95%
+## List any resources that helped with figuring it out
 
-closes #
+
