@@ -8,5 +8,5 @@ require_relative 'config/application'
 Rails.application.load_tasks
 
 GraphQL::RakeTask.new(
-  schema_name: 'DateEmRateEmBeSchema'
+  schema_name: 'ClientellBeSchema'
 )
